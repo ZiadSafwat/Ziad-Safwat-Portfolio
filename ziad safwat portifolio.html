@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ziad Safwat - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    
+<link rel="stylesheet" href="./styles.css">
+<script src="./script.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">ZS</a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="particles" id="particles"></div>
+        <div class="hero-bg-element bg-1"></div>
+        <div class="hero-bg-element bg-2"></div>
+        <div class="hero-bg-element bg-3"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Ziad Safwat</h1>
+                    <h2 class="typed-text">Software Engineer | Flutter Developer</h2>
+                    <p>I'm a Flutter developer specializing in building mobile, web, and desktop applications. I have solid experience in state management, database handling, and performance optimization.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://avatars.githubusercontent.com/u/104617951?v=4" alt="Ziad Safwat">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>I design and develop exceptional digital experiences</h3>
+                    <p>Hello! I'm a Flutter developer with experience in building cross-platform applications. I enjoy creating solutions that are both visually appealing and highly functional.</p>
+                    <p>My expertise includes state management, database handling, and performance optimization. I'm passionate about turning complex problems into practical, user-friendly applications.</p>
+                    <div class="skills-container">
+                        <div class="skill-category">
+                            <h4>Frontend Development</h4>
+                            <ul class="skill-list">
+                                <li>Flutter</li>
+                                <li>Dart</li>
+                                <li>State Management</li>
+                                <li>UI/UX Design</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Backend Development</h4>
+                            <ul class="skill-list">
+                                <li>PocketBase</li>
+                                <li>Firebase</li>
+                                <li>RESTful APIs</li>
+                                <li>Node.js</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Other Skills</h4>
+                            <ul class="skill-list">
+                                <li>Linux</li>
+                                <li>NGINX</li>
+                                <li>Git</li>
+                                <li>Arduino</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline" id="timeline">
+                <!-- Timeline items will be dynamically added here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid" id="projects-grid">
+                <!-- Project cards will be dynamically added here -->
+            </div>
+        </div>
+    </section>
+    <section id="achievements" class="projects">
+        <div class="container">
+            <h2 class="section-title">Achievements</h2>
+            <div class="projects-grid" id="achievements-grid">
+                <!-- Project cards will be dynamically added here -->
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+<!-- Contact Section -->
+<section id="contact" class="contact">
+    <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Let's talk about your project</h3>
+                <p>I'm currently available for freelance work and open to new opportunities. Feel free to reach out if you have a project in mind or just want to say hello!</p>
+                <ul class="contact-details">
+                    <li><i class="fas fa-map-marker-alt"></i> Beni-suef, Egypt</li>
+                    <li><i class="fas fa-phone"></i> +20 112 481 6059</li>
+                    <li><i class="fas fa-envelope"></i> Ziadsafwataraby@gmail.com</li>
+                </ul>
+            </div>
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Your Name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Your Email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" placeholder="Your Message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="https://github.com/ZiadSafwat" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ziad-elaraby-556b0621b/" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="https://www.instagram.com/elarabyziad/" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Ziad Safwat. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>
